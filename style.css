@@ -1,0 +1,168 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Review Assignment
+
+   Cycle Pathology Style Sheet
+   Author: 
+   Date:   
+
+   Filename:         race.css
+   Supporting Files: 
+
+*/
+
+/* Display HTMLL5 structural elements as blocks */
+header, article, aside, figure, figcaption, hgroup, section, nav {
+display: block; 
+}
+
+/* Set the default page element styles */
+body * {
+font-family: Verdana, Geneva, sans-serif; 
+font-size: 100%; 
+margin: 0px; 
+padding: 0px; 
+} 
+
+/* General Navigation List Styles */ 
+
+nav a {
+text-decoration: none; 
+} 
+
+/* Styles for the page body */ 
+body {
+position: relative; 
+width: 98%
+min-width: 1000px; 
+max-width: 1400px;  
+} 
+
+/* Header styles */ 
+header {
+ 
+position: absolute; 
+top: 0px; 
+left: 0px; 
+
+width: 20%; 
+background-color: #4E4957; 
+padding-bottom: 500px; 
+}
+
+
+header img {
+width: 100%; 
+}
+
+
+
+/* Horizontal Navigation List */
+
+
+/* h1 headings */ 
+
+#main h1 { 
+color: #4E4957; 
+font-size: 180%; 
+font-weight: normal; 
+letter-spacing: 5px; 
+} 
+
+#main h2 { 
+color: #4E4957; 
+font-size: 100%; 
+font-weight: normal; 
+letter-spacing: 5px; 
+} 
+
+#main p { 
+margin: 15px; 
+} 
+
+#main ul { 
+list-style-type: disc; 
+margin: 25px; 
+margin-bottom: 10px; 
+} 
+
+
+
+/* article */ 
+
+article { 
+
+float: left; 
+width: 29%; 
+margin-left: 1%; 
+background-color: #4E4957; 
+color: grey; 
+} 
+
+article hgroup { 
+color: grey; 
+background: #4E4957; 
+margin-bottom: 10px; 
+height: 60px; 
+} 
+article h1 { 
+font-size: 150%; 
+font-weight: normal; 
+} 
+article h2 {
+font-size: 110%; 
+font-weight: normal; 
+} 
+
+article p { 
+font-size: 90%; 
+margin: 15px; 
+}
+
+/*fig  */ 
+
+figure img{ 
+display: block; 
+clear: right; 
+float: right;  
+width: 300px;
+margin: 50px 50px ;
+position: relative; 
+ 
+}
+
+#main figure img {  
+-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #888888;
+    }
+
+
+fig {
+margin-left: 300px; 
+}
+
+
+/*Footer */ 
+/* Page footer styles */ 
+footer {
+clear: left; 
+margin-left: 33%; 
+width: 66%; 
+} 
+
+footer address {
+color: grey;
+font-size: 80%; 
+font-style: normal; 
+padding-top: 10px; 
+text-align: center; 
+}
+
+a {
+text-decoration: none; 
+color: grey; 
+}
+
